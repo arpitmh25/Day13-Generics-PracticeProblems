@@ -2,8 +2,8 @@ package com.bridgelabz.day13;
 
 public class MaximumThree {
     public static void main(String[] args) {
-        System.out.println("Maximum Among three Numbers");
-        Integer n1 = 10, n2 = 20, n3 = 30;
+        System.out.println("Maximum Among Three Is:");
+        Float n1 = 30f, n2 = 25f, n3 = 40f;
         System.out.println(findMaxAmongThree(n1, n2, n3));
     }
 
