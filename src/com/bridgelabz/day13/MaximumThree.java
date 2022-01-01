@@ -3,8 +3,8 @@ package com.bridgelabz.day13;
 public class MaximumThree {
     public static void main(String[] args) {
         System.out.println("Maximum Among Three Is:");
-        Float n1 = 30f, n2 = 25f, n3 = 40f;
-        System.out.println(findMaxAmongThree(n1, n2, n3));
+        String str1 = "messi" , str2 = "ronaldo", str3 = "neymar";
+        System.out.println(findMaxAmongThree(str1, str2, str3));
     }
 
     private static <T extends Comparable<T>> T findMaxAmongThree(T n1, T n2, T n3) {
